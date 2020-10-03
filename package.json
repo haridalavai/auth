@@ -1,0 +1,21 @@
+{
+  "name": "next_auth",
+  "version": "1.0.0",
+  "description": "next authentication",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.mjs",
+    "build": "next build"
+  },
+  "author": "hari_dalavai",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hook-form": "^6.8.6"
+  }
+}
